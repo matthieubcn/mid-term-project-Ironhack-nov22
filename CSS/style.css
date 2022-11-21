@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+
+
+/* Colors used for this project  
+nav button color : #0E36C7 ==> blue
+H1 Empower : #292E47 ==> grey
+Background emojis : #D8E3EC ==>grey
+Background body and html :#F2F4FC ==> grey
+Background section newsletter: #F9C647 ==> yellow
+
+*/
+
+/* CSS reset and adjust the background color */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:#F2F4FC;
+    font-family: 'Roboto';
+    font-size: 10px
+}
+
+/* Menu styling and disposition */
+
+nav ul {
+    list-style: none;
+    display: flex;
+   
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+}
