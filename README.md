@@ -16,7 +16,8 @@
 
 **On going Tasks**
 - CSS Home page
-- CSS Pages annexes
+- CSS Pages 
+- 
 
 Daily quote: “Learn as if you will live forever, live like you will die tomorrow.” — Mahatma Gandhi
 
