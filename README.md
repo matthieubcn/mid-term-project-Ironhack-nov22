@@ -6,12 +6,17 @@
 ### Monday 21 November
 
 ## Tasks done:
-Created file on repo and commit my first comment
-Created my Tello Dashboard
-Created my Fira Dashboard
-Created a subfolder images
+-Created file on repo and commit my first comment
+-Created my Tello Dashboard
+-Created my Fira Dashboard
+-Created a subfolder images
+-Created a html home page ==> On going 
+
+### Tuesday 2e November
+
+**On going Tasks**
+- CSS Home page
+- CSS Pages annexes
 
 
-## Tasks on going tonight
 
-created a html home page and CSS 
