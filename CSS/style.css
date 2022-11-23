@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 
 /* Colors used for this project  
 nav button color : #0E36C7 ==> blue
@@ -19,7 +19,6 @@ Background section newsletter: #F9C647 ==> yellow
     font-family: 'Roboto';
     font-size: 10px;
     line-height: 20px;
-    outline: 1px red solid;
 
 }
 
@@ -274,17 +273,15 @@ later to adjust the media */
 /* CSS styling emojis card */
 
 
-.testimonial-container h2{
+h3{
     color: black;
-    font-size: 30px;
-    text-align: center
+    font-size: 2rem;
     
 }
 
 .testimonial-text :first-child{
     color:#ffc600;
     font-size: 1.8rem;
-    text-align: center;
 } 
 
 
@@ -304,7 +301,6 @@ later to adjust the media */
         justify-content: space-evenly;
         align-items: center;   
     } 
-
 
 
 
@@ -366,7 +362,7 @@ later to adjust the media */
     display: flex;
     flex-direction: column;
     width: 25%;
-    margin-right: 40px;
+    margin-right: 50px;
     height: auto;
     background-color: white;
   }
@@ -402,9 +398,6 @@ later to adjust the media */
 }
 
 
-
-
-
 /* CSS newsletter cards */
 
 .newsletter-subscription-card{
@@ -423,14 +416,11 @@ justify-content: center;
 }
 
 
-.mail-icon{
-    background-position: 50% 50%;
-    background-size: auto;
-    background-repeat: no-repeat;
-}
-
-.mail-icon :first-child{
-    width:5%;
+.mail-icon img{
+    width: 30px;
+    position:absolute;
+    right: 50px;
+    
 }
 
 .text-field{
@@ -450,6 +440,7 @@ justify-content: center;
     color: #292e47;
     font-size: 3rem;
     padding-bottom: 20px;
+    position: relative;
 }
 
 .newsletter-span span{
@@ -481,15 +472,6 @@ justify-content: center;
     font-size: 1.4rem;
     color: white;
 }
-
-
-
-
-
-
-
-
-
 
 
 /* CSS footer */
@@ -542,7 +524,7 @@ address {
 
 
 
-
+/* Style CSS form */
 
 
 

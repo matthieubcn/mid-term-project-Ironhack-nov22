@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* Form styling */
+
+.contact-title {
+    font-size: 2rem;
+    color: #6b708d;
+    margin-bottom: 10px;
+}
+
+.contact-text-field{
+    margin-bottom: 20px ;
+    background-color:#F2F4FC;
+    height: 40px;
+    padding-left: 5px;
+}
+
+
+.contact-heading{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.contact-form{
+    margin-top: 100px;
+    width: 80%;
+    display:grid;
+    displ;
+  
+
+}
+
+.button-primary-button{
+    padding: 15px 30px;
+    background-color: #072ac8;
+    font-size: 17px;
+    color: white;
+}
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    font-size: 10px;
+    line-height: 20px;
+
+}
+
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color:#F2F4FC;
+
+}
+
+.container {
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  nav-bar-logo{
+    width: 60px;
+    height:18px;
+    background-image:url("https://uploads-ssl.webflow.com/61f7ff5634c23c5bef9d2e54/61f800b7cb56a839fd8ed026_Circle.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* Menu styling and disposition */
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.6rem;
+    padding: 20px;
+}
+
+nav a :first-child {
+    color: #0e36c7 !important;
+}
+
+.menu-logo{
+    width: 60px;
+    height: 18px;
+    background-image: url(../Images/circle.svg);
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Menu  button change style */
+nav ul li :hover {
+    color:#0E36C7;
+    cursor: pointer
+}
+/* Header styling  button */
+
+.menu-button-style {
+    color: white;
+    font-size: 1.4rem;
+    padding: 15px 30px;
+    background-color: #0e36c7;
+}
+
+/* Modified in flex */
+
+header.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem; 
+}
+
+/* CSS footer */
+
+
+.logo-footer{
+    width: 300px;
+    height: 40px;
+    background-image: url(../Images/circle.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+
+footer {
+    display: flex;
+    align-content: center;
+    margin-top: 60px;
+    justify-content: space-between;
+
+}
+
+.footer-content {
+    display:flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+address {
+    font-size:1.3rem;
+    margin-top:20px;
+    color: #6b708d;
+    flex-grow: 3;
+
+}
+
+.footer-nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+
+}
+
+.footer-link{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #072ac8;
+}
