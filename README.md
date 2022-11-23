@@ -21,11 +21,25 @@
 
 Daily quote: “Learn as if you will live forever, live like you will die tomorrow.” — Mahatma Gandhi
 
-### Tuesday 2e November
+### wednesday 23rd November
 
 ** On going tasks
-- Page 1 CSS and HTML needs to be done before noon
-- Media queries mobile 
+- Page 1 CSS and HTML needs to be done before done
+- Media queries mobile 80% done
+
+
+** Tasks Done
+All the CSS and HTML pages 
+
+### wednesday 24th November
+
+** On going tasts
+
+- Menu en transformation
+-JS??????
+
+
+
 
 
 
