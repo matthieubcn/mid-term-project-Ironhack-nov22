@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* Colors used for this project  
+nav button color : #0E36C7 ==> blue
+H1 Empower : #292E47 ==> grey
+Text-color: #6b708d
+Background emojis : #D8E3EC ==>grey
+Background body and html :#F2F4FC ==> grey
+Background section newsletter: #F9C647 ==> yellow
+
+/* Style to be deleted below */
+
+
+/* CSS reset and adjust the background color */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    font-size: 10px;
+    line-height: 20px;
+
+}
+
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color:#F2F4FC;
+
+}
+
+.container {
+    max-width: 1100px;
+    margin-right: 5%;
+    margin-left:5%
+  }
+
+
+/* Menu photo logo */
+
+nav-bar-logo{
+    width: 60px;
+    height:18px;
+    background-image:url("https://uploads-ssl.webflow.com/61f7ff5634c23c5bef9d2e54/61f800b7cb56a839fd8ed026_Circle.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* Menu styling and disposition */
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.6rem;
+    padding: 20px;
+}
+
+nav a :first-child {
+    color: #0e36c7 !important;
+}
+
+.menu-logo{
+    width: 60px;
+    height: 18px;
+    background-image: url(../Images/circle.svg);
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Menu  button change style */
+nav ul li :hover {
+    color:#0E36C7;
+    cursor: pointer
+}
+/* Header styling  button */
+
+.menu-button-style {
+    color: white;
+    font-size: 1.4rem;
+    padding: 15px 30px;
+    background-color: #0e36c7;
+    text-decoration: none;
+}
+
+/* Modified in flex */
+
+header.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem; 
+}
+
+.header-dashcoin-card > h3 {
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+ h4 {
+    font-size: 2rem;
+    color: #6b708d;
+}
+
+.dashcoin-pict {
+    width: 100%;
+    height: 500px;
+    box-shadow: 2px 2px 2px 1px #6b708d;
+    margin-top: 20px;
+
+}
+
+.detail-text-color{
+    color: #6b708d;
+}
+
+p {
+    color: #6b708d;
+    font-size: 1.4rem;
+    width: 100%;
+    margin-top: 40px;
+}
+
+
+.header-dashcoin-card {
+    margin-top: 60px
+}
+
+section div{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+}
+
+
+/* CSS styling project cards */
+
+#section-project-card-container{
+    margin-top:100px
+}
+
+#section-project-card-container .main-project-card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+    margin-top: 55px;
+    
+  }
+
+  #section-project-card-container .project-card {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-right: 50px;
+    height: auto;
+    background-color: white;
+  }
+
+#recent-project :nth-child(1){
+    font-size: 6rem;
+    color: #292E47;
+    font-weight: 400;
+}
+
+.card-title{
+    font-size:1.8rem;
+    color: #292e47;
+    line-height: 115%;
+    font-weight:500 ;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.span-title{
+    font-size:1.5rem;
+    font-weight:400;
+    margin-top: 10px;
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+
+.project-card-img{
+    width: 300px;
+}
+
+.project-link{
+    color: #072ac8;
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-left: 10px;
+
+}
+
+.project-title{
+    color: #292e47;
+    font-size:3rem;
+    font-weight: 400;
+}
+
+.project-card > div{
+    padding: 20px
+}
+
+/* CSS newsletter cards */
+
+.newsletter-subscription-card{
+    width:auto;
+    height: 400px;
+    max-width: 1320px;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #ffc600;
+    flex-direction: column;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    
+    }
+    
+    
+    .mail-icon img{
+        width: 30px;
+        position:absolute;
+        margin-top: 15px;
+        margin-left: 20px;
+    
+        
+        
+    }
+    
+    .text-field{
+        width: 300px;
+        height: 60px;
+        margin-bottom: 0px;
+        padding-left: 70px;
+        background-color: #ecf7ff;
+        color: #292e47;
+        border: #F9C647;
+        
+    }
+    
+    .input-text{
+        font-size: 1.4rem;
+    }
+    
+    .newsletter-container h3{
+        color: #292e47;
+        font-size: 3rem;
+        padding-bottom: 20px;
+        position: relative;
+    }
+    
+    .newsletter-span span{
+        font-size:1.5rem;
+        color: #6b708d;
+        padding-bottom: 20px;
+        
+    }
+    
+    .newsletter-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } 
+    
+    .newsletter-wrapper{
+        display: flex;
+    }
+    
+    .cta-button{
+        padding: 15px 30px;
+        background-color: #072ac8;
+        font-size: 1.4rem;
+        color: white;
+        border: #F9C647;
+        margin-left: 20px;
+    }
+    
+    
+    /* CSS footer */
+    
+    
+    .logo-footer{
+        width: 300px;
+        height: 40px;
+        background-image: url(../Images/circle.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }
+    
+    
+    footer {
+        display: flex;
+        align-content: center;
+        margin-top: 60px;
+        justify-content: space-between;
+    
+    }
+    
+    .footer-content {
+        display:flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    
+    address {
+        font-size:1.3rem;
+        margin-top:20px;
+        color: #6b708d;
+        flex-grow: 3;
+    
+    }
+    
+    .footer-nav{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 20px;
+    
+    }
+    
+    .footer-link{
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: #072ac8;
+    }
+
+

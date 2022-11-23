@@ -1,3 +1,224 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 
+/* Do not forget to adjust the pictures absolut */
+
+/* For middle screen users */
+
+@media(max-width:970px){
+    .subman-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .subman-subcontainer {
+        display: flex;
+        align-items: center;
+    }
+
+    #subman-title-container h1{
+        text-align: center;
+    }
+
+    .hero1-card{
+        position: absolute;
+        left:20%;
+        top: 70%;
+    }
+
+    .hero2-card{
+    position: absolute;
+    right:19%;
+    bottom: -60%;
+    }
+    
+
+    .brand-logos-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: flex-end;
+    
+    }
+     .brand-logos-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .brand-logo{
+        width: 40%;
+        align-items: center;
+        margin: 20px;
+    }
+    .brand-logo1{
+        display: none;
+
+    }
+    .testimonial-titletext{
+        color: white;
+        font-size: 3rem;
+        text-align: center;
+    }
+    .testimonial-text :first-child{
+        color:#ffc600;
+        font-size: 1.4rem;
+        text-align: center;
+    } 
+    }
+
+
+/* For mobile users */
+
+
+@media(max-width:500px){
+    .menu-button{
+        display:none;
+    }
+     .subman-container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    #subman-title-container h1{
+        font-size: 2rem;
+    }
+    .hero {
+        width: 300px;
+    }
+
+
+    .hero1-card ,.hero2-card{
+        display: none;
+    }
+
+    .first-section-button{
+        text-decoration: none;
+        color: #6b708d;
+        font-size: 1.5rem;
+        display: inline-block;
+        font-weight: 500;
+        background-color: transparent;
+    
+     }
+    
+     .second-section-button{
+        text-decoration: none;
+        color:white;
+        font-size: 1.5rem;
+        background-color: #0E36C7;
+        padding: 15px 30px;
+        margin: 0px 30px 0px 30px;
+        display: inline-block;
+
+    }
+
+    #subman-text-container p{
+        color:#6b708d;
+        font-size:1.5rem;
+        line-height: 120%;
+        text-align: center;
+        padding-bottom: 20px;
+     }
+
+     .brand-logo{
+        width: 100px;
+        align-items: center;
+    }
+
+    .brand-logos-container {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .emoji-picture1, .emoji-picture2, .emoji-picture3 , .emoji-picture4{
+        display: none;
+
+    }
+
+    .testimonial-titletext{
+        color: white;
+        font-size: 3rem;
+        text-align: center;
+        line-height: 110%;
+    }
+    #our-services-card .our-service-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%
+      }
+    
+    #our-services-card .small-service-card {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: white;
+        margin-top: 20px;
+    }
+
+    #section-project-card-container .main-project-card-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        
+      }
+    
+      #section-project-card-container .project-card {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: white;
+      }
+
+      .newsletter-subscription-card{
+        background-color: #ffc600;
+        flex-direction: column;
+        display: flex;
+        
+        }
+
+        .newsletter-container h3{
+            color: #292e47;
+            font-size: 2rem;
+            padding-bottom: 20px;
+            position: relative;
+        }
+        
+        .newsletter-span span{
+            font-size:1.2rem;
+            color: #6b708d;
+            padding-bottom: 20px;
+        }
+        
+        .newsletter-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        } 
+        
+        .newsletter-wrapper{
+            display: flex;
+        }
+        
+        .cta-button{
+            padding: 10px 10px;
+            background-color: #072ac8;
+            font-size: 1.2rem;
+            color: white;
+            border: #F9C647;
+        }
+
+        .text-field input-text{
+
+        }
+        
+
+    }
