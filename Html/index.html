@@ -19,7 +19,7 @@
 
 <body>
 
-<header>
+<header class="container">
 
 <div class="menu-logo">
 <a class ="nav-bar-logo" href="#"></a>
@@ -49,7 +49,7 @@
 
  <section id ='./index.html' class = "man-container">
 
-    <div class= "subman-container">
+    <div class= " container subman-container">
 
     <div class =subman-subcontainer>
 
@@ -81,7 +81,7 @@
  </section>
 
  <!-- Below the brand logos -->
- <section class="brand-logos-container">
+ <section class="container brand-logos-container">
 
     <div class ="brand-logo">
     <img class="brand-logo" src ="../Images/Airbnb-logo.svg" alt="Air Bnb logo">
@@ -112,7 +112,7 @@
 
 
 
-<!-- Project Carda -->
+<!-- Project Cards -->
 
 
 
@@ -120,7 +120,7 @@
 
 <h2 class="project-title">Recent Project</h2>
 
-<div class="main-project-card-container ">
+<div class="container main-project-card-container ">
 
 <article class="project-card">
 
@@ -194,10 +194,13 @@
 
 <section id="emojis-card">
 
-    <div class="testimonial-container">
 
 
-    <h2>Hear What Our Clients Have to Say</h3>
+
+    <div>
+    <h3>Hear What Our Clients Have to Say</h3>
+    </div>
+
 
     <div class="testimonial-text">
     <p>"Circle help us through every stage  of our start up.
@@ -209,11 +212,13 @@
     <img class="avatar" src="../Images/profile.png">
     </div>
 
+
     <div class="avatar-info">
     <p>Kristan Watson</p>
     </div>
 
     </div>
+
 
 
 
@@ -234,9 +239,6 @@
     </div>
 
 
-
-
-
 </section>
 
 
@@ -245,11 +247,11 @@
     <h3 class="project-title">Our Services</h3> 
 
 
-    <div class="our-service-container">
+    <div class="container our-service-container">
 
 
     <div class="small-service-card">
-        <img src ="../Images/Plume-icon.svg">
+        <img class="img-card" src ="../Images/Plume-icon.svg">
         <h3>User interface Design</h3>
         <p>Circle provides you with a stunning user interface design that is accessible to everyone.</p>
         <a class="project-link" href="#">Learn More</a>
@@ -257,7 +259,7 @@
 
 
     <div class="small-service-card">
-        <img src ="../Images/pointer-icon.svg">
+        <img class="img-card" src ="../Images/pointer-icon.svg">
         <h3>User Experience Design</h3>
         <p>Circle always focuses on delivering the best user experience to your customers.</p>
         <a class ="project-link" href="#">Learn More</a>
@@ -265,7 +267,7 @@
 
 
     <div class="small-service-card">
-        <img src="../Images/pointer-icon.svg">
+        <img class="img-card" src="../Images/pointer-icon.svg">
         <h3>Application Developement</h3>
         <p>We develop high-quality mobile and web applications using the latest technology stack.</p>
         <a class="project-link" href="#">Learn More</a>
@@ -279,41 +281,37 @@
 
 <section class="newsletter-subscription-card">
 
-    <div class="newsletter-container">
+    <div class=" newsletter-container">
+     <h3>Do you have any questions</h3>
+    </div>
 
-        <h3>Do you have any questions</h3>
+        
 
-        <div class="newsletter-question">
+        <div class="newsletter-span">
         <span>Let us help you</span>
         </div>
 
-        <div class="newsletter-form-container">
-    
-        <form id =newsletter-id>
-        
+                
         <div class="newsletter-wrapper">
 
-        <div class="mail-icon"><img src="../Images/email.icon.svg" alt="mail-icon"></div>
+            <div class="mail-icon"><img src="../Images/email.icon.svg" alt="mail-icon"></div>
         
-        <input type="email" class="text-field input-text" maxlength="256" name="email-2" data-name="Email 2" placeholder="Enter your email" id="email-2" required="">
-
-        </div>
-
-        <input type="submit" value="Subscribe" data-wait="Please wait..." class="cta-button">
-
-        </form>
-
-
-
-</div>
+            <input type="email" class="text-field input-text" maxlength="256" name="email-2" data-name="Email 2" placeholder="Enter your email" id="email-2" required="">
+            
+            <div>
+            <input type="submit" value="Subscribe" data-wait="Please wait..." class="cta-button">
+             
+            </div>
 
 
         </div>
-
+         
     </section>
 
 
 <footer>
+
+    <div class="footer-content">
 
     <div class="logo-footer"> 
     <a class="footer-logo"href=""></a>
@@ -322,19 +320,19 @@
 
     <div class="adress-card">
     <address>2972 Westheimer Rd. Santa Ana,
-        <br>Illinois 85486</address>
+    <br>Illinois 85486</address>
     </div>
+    
+    </div>  
 
-    <nav class="footer">
-        <ul>
-            <li><a class="footer-link" href="#"></li>
-            <li><a class="footer-link"href="#"></li>
-            <li><a class="footer-link"href="#"></li>
-            <li><a class="footer-link"href="#"></li>
-            <li><a class="footer-link"href="#"></li>
-            <li><a class="footer-link"href="#"></li>
-            </ul>
-    </nav>
+    <div class="footer-nav">
+                <a class="footer-link" href="#">Team</li>
+                <a class="footer-link"href="#">Services</li>
+                <a class="footer-link"href="#">About us</li>
+                <a class="footer-link"href="#">Press</li>
+                <a class="footer-link"href="#">Projects</li>
+                <a class="footer-link"href="#">Privacy policy</li>
+    </div>
 
 </footer>
 

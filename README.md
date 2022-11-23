@@ -21,5 +21,12 @@
 
 Daily quote: “Learn as if you will live forever, live like you will die tomorrow.” — Mahatma Gandhi
 
+### Tuesday 2e November
+
+** On going tasks
+- Page 1 CSS and HTML needs to be done before noon
+- Media queries mobile 
+
+
 
 
