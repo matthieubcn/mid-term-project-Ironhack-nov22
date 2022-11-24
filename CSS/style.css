@@ -12,6 +12,8 @@ Background section newsletter: #F9C647 ==> yellow
 /* Style to be deleted below */
 
 
+
+
 /* CSS reset and adjust the background color */
 * {
     box-sizing: border-box;
@@ -58,6 +60,8 @@ nav a {
     color: black;
     font-size: 1.6rem;
     padding: 20px;
+    flex-grow: 1;
+
 }
 
 nav a :first-child {
@@ -90,7 +94,7 @@ nav ul li :hover {
 
 /* Modified in flex */
 
-header.container{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -142,6 +146,7 @@ header.container{
     padding-top: 50px;
     margin-top: 20px;
     box-sizing: border-box;
+    position: relative
     
 }
 
@@ -161,34 +166,26 @@ header.container{
 
 .hero1-card{
     position: absolute;
-    left:50%;
-    top: 30%;
-    max-width: 375px;
-    width: 20vh;
+    left:46%;
+    top: 20%;
+    max-width: 150px;
     background-color: white;
     border-radius: 20%;
 }
 
 .hero2-card{
     position: absolute;
-    width: 35vh;
-    position: absolute;
-    right: 10%;
-    bottom: -15%;
-    max-width: 375px;
-    width: 20vh;
+    right: 9%;
+    bottom: -5%;
+    max-width: 150px;
     background-color: white;
     border-radius: 20%;
 }
 
-.hero-image{
-    position: relative;
+.hero{
     vertical-align: center
     width 70%;
 }
-
-
-
 /* CSS size logo  */
 
 .container.brand-logos-container{
@@ -268,7 +265,7 @@ header.container{
 .project-title{
     color: #292e47;
     font-size:3rem;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .project-card > div{
@@ -421,14 +418,16 @@ header.container{
 
 .small-service-card > img {
     background-color: white;
-    width: 17%;
-    margin: 30px;
+    width: 30%;
+    margin: 20px;
     background-color:#F2F4FC;
     background-size: contain;
     border-radius: 50%;
-    padding: 8px;
+    padding: 0px;
 
 }
+
+
 
 
 
@@ -467,6 +466,7 @@ justify-content: center;
     background-color: #ecf7ff;
     color: #292e47;
     border: #F9C647;
+    margin-top: 10px;
     
 }
 
@@ -482,9 +482,10 @@ justify-content: center;
 }
 
 .newsletter-span span{
-    font-size:1.5rem;
+    font-size:1.8rem;
     color: #6b708d;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+    font-weight: 200;
     
 }
 
@@ -499,12 +500,13 @@ justify-content: center;
 }
 
 .cta-button{
-    padding: 15px 30px;
+    padding: 20px 35px;
     background-color: #072ac8;
     font-size: 1.4rem;
     color: white;
     border: #F9C647;
     margin-left: 20px;
+    margin-top: 10px;
 }
 
 

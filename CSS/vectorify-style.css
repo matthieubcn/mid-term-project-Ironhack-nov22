@@ -8,9 +8,11 @@ Background emojis : #D8E3EC ==>grey
 Background body and html :#F2F4FC ==> grey
 Background section newsletter: #F9C647 ==> yellow
 
-/* Style to be deleted below */
-
-
+@media(max-width:970px){
+    .menu-button-style {
+        display: none;
+    }
+}
 /* CSS reset and adjust the background color */
 * {
     box-sizing: border-box;
@@ -27,6 +29,10 @@ body {
     margin-right: 5%;
     background-color:#F2F4FC;
 
+}
+
+.paragraph {
+    font-size: 1.5rem;
 }
 
 .container {
@@ -205,7 +211,7 @@ section div{
 .project-title{
     color: #292e47;
     font-size:3rem;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .project-card > div{
@@ -338,3 +344,169 @@ section div{
     }
 
 
+    /* Media queries */
+
+    @media(max-width:500px){
+
+
+
+
+    footer {
+        display: flex;
+        align-content: center;
+        margin-top: 40px;
+        justify-content: center;
+    
+    }
+
+
+    address {
+    font-size:1.1rem;
+    color: #6b708d;
+    flex-grow: 3;
+
+    }
+
+    .logo-footer{
+        width: 200px;
+        height: 40px;
+        background-image: url(../Images/circle.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }
+
+    }
+
+
+    @media(max-width:500px){
+
+        body,html{
+            margin: 0;
+        }
+        
+        
+        #our-services-card .small-service-card {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            background-color: white;
+            margin-top: 20px;
+        }
+    
+        #section-project-card-container .main-project-card-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 100%;
+            margin-left:5%
+            
+          }
+        
+          #section-project-card-container .project-card {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            background-color: white;
+          }
+    
+          .project-card-img{
+            width: 100%;
+          }
+          
+          .newsletter-subscription-card{
+            width:auto;
+            height: 400px;
+          }
+    
+          .newsletter-subscription-card{
+            background-color: #ffc600;
+            flex-direction: column;
+            display: flex;
+            
+            }
+    
+            .newsletter-container h3{
+                color: #292e47;
+                font-size: 2rem;
+                padding-bottom: 20px;
+                position: relative;
+            }
+            
+            .newsletter-span span{
+                font-size:1.2rem;
+                color: #6b708d;
+                padding-bottom: 20px;
+            }
+            
+            .newsletter-wrapper {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            } 
+            
+            .newsletter-wrapper{
+                display: flex;
+            }
+            
+            .cta-button{
+                padding: 10px 10px;
+                background-color: #072ac8;
+                font-size: 1.2rem;
+                color: white;
+                border: #F9C647;
+                margin-top: 30px;
+                margin-left: 0;
+                display: inline-block;
+                width: 200px;
+            }
+    
+            .text-field {
+            width: 200px;
+            height: 40px;
+            margin-bottom: 0px;
+            background-color: #ecf7ff;
+            color: #292e47;
+            border: #F9C647;
+            padding-left: 20px;
+        }
+    
+        .mail-icon img {
+            width: 30px;
+            position: absolute;
+            margin-top: -15px;
+            margin-left: 20px;
+        }
+    
+        .mail-icon img {
+            display:none
+        }
+        
+        footer {
+            display: flex;
+            align-content: center;
+            margin-top: 40px;
+            justify-content: center;
+        
+        }
+    
+    
+        address {
+        font-size:1.1rem;
+        color: #6b708d;
+        flex-grow: 3;
+    
+        }
+    
+        .logo-footer{
+            width: 200px;
+            height: 40px;
+            background-image: url(../Images/circle.svg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            cursor: pointer;
+        }
+         
+        }

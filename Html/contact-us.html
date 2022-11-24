@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Css/contact-style.css">
+    <link rel="stylesheet" href="../CSS/contact-style.css">
 
     <title>Contact </title>
 </head>
@@ -12,41 +12,59 @@
 
     <header class="container">
         <div class="menu-logo">
-        <a class ="nav-bar-logo" href="../Html/"></a>
+        <a class ="nav-bar-logo" href="../index.html"></a>
         </div>
             <!-- Faire le navigateur ici -->
         <nav>
             <ul>
-            <li><a href='/index.html'>Home</a></li>
+            <li><a href='../index.html'>Home</a></li>
             <li><a href='#'>Project</a></li>
             <li><a href='#'>Services</a></li>
             </ul>
         </nav>
 
+
         <div class="menu-button">
             <a class="menu-button-style" href="./contact-us.html">Contact us</a>
             </div>
+            <a href="#" id="openBtn">
+                <span class="burger-icon">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </span>
+              </a>
             
 
         </header>
+
+
+        <div id="mySidenav" class="sidenav">
+            <a id="closeBtn" href="#" class="close">×</a>
+            <ul class='deleted'>
+              <li><a href="#">Home Page</a></li>
+              <li><a href="#">Project</a></li>
+              <li><a href="#">Service</a></li>
+            </ul>
+          </div>
 
         <form class=" container contact-form">
 
             <h3 class="contact-heading">Contact Us</h3>
 
 
-            <label for="name" class="contact-title">Full Name *</label>
+            <label for="name"  class="contact-title">Full Name *</label>
             <input type="text" class="contact-text-field" maxlength="256" name="name" data-name="Name" placeholder="Enter your full name" id="name" required>
 
             <div>
                 <div>
                 <label for="name-2" class="contact-title">Email</label>
-                <input type="email" class="contact-text-field" maxlength="256" name="name-2" data-name="Name 2" placeholder="Enter your email" id="name-2">
+                <input type="email" class="contact-text-field" maxlength="256" name="name-2" data-name="Name 2" placeholder="Enter your email" id="email">
                 </div>
 
                 <div>
                     <label for="name-3" class="contact-title">Phone</label>
-                <input type="tel" class="contact-text-field" maxlength="256" name="name-3" data-name="Name 3" placeholder="Enter your phone" id="name-3">
+                <input type="tel" class="contact-text-field" maxlength="256" name="name-3" data-name="Name 3" placeholder="Enter your phone" id="cell">
                 </div>
 
              </div>
@@ -87,4 +105,6 @@
         </footer>
     
 </body>
+<script src="../JS/index.js"></script>
+<script src="../JS/hamburger.js"></script>
 </html>

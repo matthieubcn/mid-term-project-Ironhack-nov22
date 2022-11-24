@@ -1,6 +1,89 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 
+@media(max-width:970px){
+.sidenav {
+        height: 90px;
+        width: 100%;
+        position: relative;
+        z-index: 1;
+        left: -1200px;
+        background-color: #e8e8e8;
+        transition: top 1s ease;
+ }
+
+.sidenav a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    transition: 0.5s;
+    font-size: 'Roboto';
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sidenav a:hover {
+    color:#072ac8;
+  }
+  
+  .sidenav ul {
+    list-style-type: none;
+    text-align: center; 
+  }
+  /* Active class */
+  .sidenav.active {
+    left: 0;
+  }
+  
+  /* Close btn */
+  .sidenav .close {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  /* Icône burger */
+  .burger-icon span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color:#6b708d;
+    margin: 4px 0;
+    
+
+  }
+
+    nav{
+        display: none;
+    }
+
+    .openBtn{
+        position: absolute;
+        display: block;
+        float: right;
+        
+    }
+
+    .burger-icon{
+        display: block;
+        margin-right: 0%;
+    }
+
+}
+    
+
+@media(min-width:971px){
+    .deleted ,.close{
+        display: none;
+    }
+  
+}
+    
+
+
 /* Do not forget to adjust the pictures absolut */
 
 /* For middle screen users */
@@ -11,6 +94,14 @@
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
+    }
+
+    .menu-button-style{
+        display: none;
+    }
+
+    .hero1-card ,.hero2-card{
+        display: none;
     }
 
     .subman-subcontainer {
@@ -70,16 +161,26 @@
     } 
     }
 
+    @media(max-width:800px){
+        .emoji-picture1, .emoji-picture2, .emoji-picture3 , .emoji-picture4{
+            display: none;
+    
+        }
+    
+    }
+
 
 /* For mobile users */
 
 
 @media(max-width:500px){
 
-    body{
+    body,html{
         margin: 0;
-
     }
+    
+
+    
     .menu-button{
         display:none;
     }
@@ -106,7 +207,6 @@
         display: inline-block;
         font-weight: 500;
         background-color: transparent;
-    
      }
     
      .second-section-button{
@@ -136,7 +236,7 @@
 
     .brand-logos-container {
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: flex-start;
         margin: inherit;
     }
@@ -157,8 +257,13 @@
         flex-direction: column;
         justify-content: center;
         width: 100%
-        margin-left: 20px;
-      }
+          }
+
+          h2.project-title{
+            text-align: center;
+            font-weight:400;
+            font-size: 3rem;
+          }
     
     #our-services-card .small-service-card {
         display: flex;
@@ -174,6 +279,7 @@
         justify-content: center;
         flex-wrap: wrap;
         width: 100%;
+        margin-left:5%
         
       }
     
@@ -230,17 +336,20 @@
             font-size: 1.2rem;
             color: white;
             border: #F9C647;
-            margin-top: 10px
+            margin-top: 30px;
+            margin-left: 0;
+            display: inline-block;
+            width: 200px;
         }
 
         .text-field {
         width: 200px;
-        height: 30px;
-    margin-bottom: 0px;
-    /* padding-left: 70px; */
+        height: 40px;
+        margin-bottom: 0px;
         background-color: #ecf7ff;
-    color: #292e47;
-    border: #F9C647;
+        color: #292e47;
+        border: #F9C647;
+        padding-left: 20px;
     }
 
     .mail-icon img {
@@ -279,4 +388,48 @@
         cursor: pointer;
     }
      
+    }
+
+
+    /* Fixing the cards */
+
+    @media(max-width:700px){
+
+    .testimonial-titletext{
+        color: white;
+        font-size: 3rem;
+        text-align: center;
+        line-height: 110%;
+    }
+    #our-services-card .our-service-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%
+          }
+    
+    #our-services-card .small-service-card {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: white;
+        margin-top: 20px;
+    }
+
+    #section-project-card-container .main-project-card-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        
+      }
+    
+      #section-project-card-container .project-card {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: white;
+      }
+
     }

@@ -1,11 +1,108 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
+
+@media(max-width:970px){
+.menu-button-style {
+    display: none;
+}
+}
+
+
+@media(max-width:700px){
+
+    .sidenav {
+        height: 90px;
+        width: 100%;
+        position: relative;
+        z-index: 1;
+        left: -1200px;
+        background-color: #e8e8e8;
+        transition: top 1s ease;
+ }
+
+.sidenav a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    transition: 0.5s;
+    font-size: 'Roboto';
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sidenav a:hover {
+    color:#072ac8;
+  }
+  
+  .sidenav ul {
+    list-style-type: none;
+    text-align: center; 
+  }
+  /* Active class */
+  .sidenav.active {
+    left: 0;
+  }
+  
+  /* Close btn */
+  .sidenav .close {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  /* Icône burger */
+  .burger-icon span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color:#6b708d;
+    margin: 4px 0;
+    
+
+  }
+
+    nav{
+        display: none;
+    }
+
+    .openBtn{
+        position: absolute;
+        display: block;
+        float: right;
+        
+    }
+
+    .burger-icon{
+        display: block;
+        margin-right: 0%;
+    }
+ 
+
+}
+
+@media(min-width:701px){
+    .deleted ,.close{
+        display: none;
+    }
+  
+}
+
+
 /* Form styling */
+
+
 
 .contact-title {
     font-size: 1.6rem;
     color: #6b708d;
     margin-bottom: 10px;
+}
+
+.nav-bar-logo{
+    cursor: pointer;
 }
 
 
