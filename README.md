@@ -33,10 +33,12 @@ All the CSS and HTML pages
 
 ### wednesday 24th November
 
-** On going tasts
+** On going tasks
 
 - Menu en transformation
--JS??????
+- JS??????
+- Meta queries need to be ajusted
+- Slide presentations
 
 
 
