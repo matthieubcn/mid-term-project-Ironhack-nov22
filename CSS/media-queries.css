@@ -253,8 +253,30 @@
     .mail-icon img {
         display:none
     }
+    
+    footer {
+        display: flex;
+        align-content: center;
+        margin-top: 40px;
+        justify-content: center;
+    
+    }
 
+
+    address {
+    font-size:1.1rem;
+    color: #6b708d;
+    flex-grow: 3;
+
+    }
+
+    .logo-footer{
+        width: 200px;
+        height: 40px;
+        background-image: url(../Images/circle.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }
      
-        
-
     }
