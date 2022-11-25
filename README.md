@@ -45,6 +45,26 @@ You must be the change you wish to see in the world.
 Mahatma Gandhi
 
 
+### Thursday 25th November
+
+** Tasks done:
+
+-Media queries
+-HTML and CSS all pages
+-JS FORM done
+
+
+### Friday 26th November
+
+** On going tasks
+
+- float right the hamburgers
+- the presentation must be done before 10
+- and JS ..... help needed
+
+
+
+
 
 
 
