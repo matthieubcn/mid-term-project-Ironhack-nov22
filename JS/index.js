@@ -21,7 +21,7 @@ const contactForm = (preventForm) => {
     let textarea = document.querySelector("#field").value;
     
     
-    fetch("https://jsonplaceholder.typicode.com/users", {
+    fetch("https://jsonplaceholder.typicode.com/users",{
       method: "POST",
       headers: {
         "Content-type": "application/json",
@@ -37,8 +37,16 @@ const contactForm = (preventForm) => {
       .then((response) => response.json())
       .then((formData) => console.log(formData))
       .catch((error) => console.log(error));
-  };
+};
+  
   document.querySelector('form').addEventListener("submit", contactForm);
+
+
+document.getElementById("#submit").addEventListener("click", displayAlert);
+
+  function displayAlert() {
+    alert('Thanks for submitting your form')
+  }
 
 
 

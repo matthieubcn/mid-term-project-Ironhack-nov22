@@ -7,15 +7,107 @@ Text-color: #6b708d
 Background emojis : #D8E3EC ==>grey
 Background body and html :#F2F4FC ==> grey
 Background section newsletter: #F9C647 ==> yellow
+*/
+
+@media(max-width:700px){
+
+    .sidenav {
+        height: 90px;
+        width: 100%;
+        position: relative;
+        z-index: 1;
+        left: -1200px;
+        background-color: #e8e8e8;
+        transition: top 1s ease;
+ }
+
+.sidenav a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    transition: 0.5s;
+    font-size: 'Roboto';
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sidenav a:hover {
+    color:#072ac8;
+  }
+  
+  .sidenav ul {
+    list-style-type: none;
+    text-align: center; 
+  }
+  /* Active class */
+  .sidenav.active {
+    left: 0;
+  }
+  
+  /* Close btn */
+  .sidenav .close {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  /* Icône burger */
+  .burger-icon span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color:#6b708d;
+    margin: 4px 0;
+    
+
+  }
+
+    nav{
+        display: none;
+    }
+
+    .openBtn{
+        position: absolute;
+        display: block;
+        float: right;
+        
+    }
+
+    .burger-icon{
+        display: block;
+        margin-right: 0%;
+    }
+ 
+
+}
+
+@media(min-width:701px){
+    .deleted ,.close{
+        display: none;
+    }
+  
+}
 
 
-/* CSS reset and adjust the background color */
 
 @media(max-width:970px){
-.menu-button-style {
-    display: none;
-}
-}
+    .menu-button-style {
+        display: none;
+    }
+    .menu-button{
+        display: none;
+    }
+    }
+
+    .menu-button{
+        float: right;
+        margin-right: 70px;
+        margin-top: -20px;
+        z-index: 1;
+    }
 
 * {
     box-sizing: border-box;
@@ -268,7 +360,7 @@ section div{
     }
     
     .newsletter-span span{
-        font-size:1.5rem;
+        font-size:1.8rem;
         color: #6b708d;
         padding-bottom: 20px;
         
@@ -413,7 +505,7 @@ section div{
             }
             
             .newsletter-span span{
-                font-size:1.2rem;
+                font-size:1.8rem;
                 color: #6b708d;
                 padding-bottom: 20px;
             }
