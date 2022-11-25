@@ -92,6 +92,13 @@ nav ul li :hover {
     text-decoration: none;
 }
 
+.menu-button{
+float: right;
+margin-right: 70px;
+margin-top: -20px;
+z-index: 1;
+}
+
 /* Modified in flex */
 
 header {
@@ -452,7 +459,7 @@ justify-content: center;
 .mail-icon img{
     width: 30px;
     position:absolute;
-    margin-top: -15px;
+    margin-top: -3px;
     margin-left: 20px;
 
     
@@ -466,7 +473,7 @@ justify-content: center;
     background-color: #ecf7ff;
     color: #292e47;
     border: #F9C647;
-    margin-top: 10px;
+    margin-top: 30px;
     
 }
 
@@ -485,7 +492,6 @@ justify-content: center;
     font-size:1.8rem;
     color: #6b708d;
     padding-bottom: 30px;
-    font-weight: 200;
     
 }
 
@@ -506,7 +512,7 @@ justify-content: center;
     color: white;
     border: #F9C647;
     margin-left: 20px;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 
@@ -551,7 +557,7 @@ address {
 }
 
 .footer-link{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     text-decoration: none;
     color: #072ac8;
 }

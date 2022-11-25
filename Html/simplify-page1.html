@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" href="../CSS/simplify-page1.css">
 
+
 </head>
 <body>
 
@@ -25,18 +26,34 @@
         <li><a href='#'>Services</a></li>
         </ul>
     </nav>
-
+    <a href="#" id="openBtn">
+        <span class="burger-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </a>
   
     
     
      <!-- Below the button contact us section -->
     
-    <div class="menu-button">
-    <a class="menu-button-style" href="./Html/contact-us.html">Contact us</a>
-    </div>
-    
+
     
     </header>
+
+    <div class="menu-button">
+        <a class="menu-button-style" href="./Html/contact-us.html">Contact us</a>
+        </div>
+
+        <div id="mySidenav" class="sidenav">
+            <a id="closeBtn" href="#" class="close">×</a>
+            <ul class='deleted'>
+              <li><a href="../index.html">Home Page</a></li>
+              <li><a href="#">Project</a></li>
+              <li><a href="#">Service</a></li>
+            </ul>
+          </div>
 
   
 
@@ -168,5 +185,6 @@ liquam blandit varius metus, in mattis orci convallis sit amet. Fusce et sem ac 
 </footer>
 
 <script src="../JS/index.js"></script>
+<script src="../JS/hamburger.js"></script>
 </body>
 </html>

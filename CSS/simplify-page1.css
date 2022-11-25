@@ -10,13 +10,111 @@ Background section newsletter: #F9C647 ==> yellow
 
 /* Burger */
 
+@media(max-width:700px){
 
+    .sidenav {
+        height: 90px;
+        width: 100%;
+        position: relative;
+        z-index: 1;
+        left: -1200px;
+        background-color: #e8e8e8;
+        transition: top 1s ease;
+ }
+
+.sidenav a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    transition: 0.5s;
+    font-size: 'Roboto';
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sidenav a:hover {
+    color:#072ac8;
+  }
+  
+  .sidenav ul {
+    list-style-type: none;
+    text-align: center; 
+  }
+  /* Active class */
+  .sidenav.active {
+    left: 0;
+  }
+  
+  /* Close btn */
+  .sidenav .close {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  /* Icône burger */
+  .burger-icon span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color:#6b708d;
+    margin: 4px 0;
+    
+
+  }
+
+    nav{
+        display: none;
+    }
+
+    .openBtn{
+        position: absolute;
+        display: block;
+        float: right;
+        
+    }
+
+    .burger-icon{
+        display: block;
+        margin-right: 0%;
+    }
+ 
+
+}
+
+@media(min-width:701px){
+    .deleted ,.close{
+        display: none;
+    }
+  
+}
+
+
+
+@media(max-width:970px){
+    .menu-button-style {
+        display: none;
+    }
+    .menu-button{
+        display: none;
+    }
+    }
 
 /* CSS reset and adjust the background color */
 @media(max-width:970px){
 .menu-button-style {
     display: none;
 }
+}
+
+.menu-button{
+    float: right;
+    margin-top:-20px;
+    margin-right: 60px;
+
 }
 
 * {
@@ -100,7 +198,7 @@ nav ul li :hover {
 
 /* Modified in flex */
 
-header.container{
+header{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -348,44 +446,16 @@ section div{
         color: #072ac8;
     }
    
-
-        @media(max-width:500px){
-
-
-
-
-            footer {
-                display: flex;
-                align-content: center;
-                margin-top: 40px;
-                justify-content: center;
-            
-            }
-        
-        
-            address {
-            font-size:1.1rem;
-            color: #6b708d;
-            flex-grow: 3;
-        
-            }
-        
-            .logo-footer{
-                width: 200px;
-                height: 40px;
-                background-image: url(../Images/circle.svg);
-                background-size: contain;
-                background-repeat: no-repeat;
-                cursor: pointer;
-            }
-        
-            }
         
         
             @media(max-width:500px){
         
                 body,html{
                     margin: 0;
+                }
+
+                .project-title{
+                    text-align: center;
                 }
                 
                 
@@ -463,29 +533,26 @@ section div{
                         margin-top: 30px;
                         margin-left: 0;
                         display: inline-block;
-                        width: 200px;
+                        width: 350px;
                     }
             
                     .text-field {
-                    width: 200px;
+                    width: 350px;
                     height: 40px;
                     margin-bottom: 0px;
                     background-color: #ecf7ff;
                     color: #292e47;
                     border: #F9C647;
-                    padding-left: 20px;
+                    padding-left: 50px;
+                    position: relative;
                 }
             
                 .mail-icon img {
-                    width: 30px;
-                    position: absolute;
-                    margin-top: -15px;
-                    margin-left: 20px;
+                    display: none;
+                    
                 }
             
-                .mail-icon img {
-                    display:none
-                }
+               
                 
                 footer {
                     display: flex;
@@ -514,5 +581,38 @@ section div{
                  
                 }
         
-    
+                @media (max-width:390px){
+
+                    .cta-button{
+                        padding: 10px 10px;
+                        background-color: #072ac8;
+                        font-size: 1.2rem;
+                        color: white;
+                        border: #F9C647;
+                        margin-top: 30px;
+                        margin-left: 0;
+                        display: inline-block;
+                        width: 250px;
+                    }
+                
+                    .text-field {
+                    width: 250px;
+                    height: 40px;
+                    margin-bottom: 0px;
+                    background-color: #ecf7ff;
+                    color: #292e47;
+                    border: #F9C647;
+                    padding-left: 50px;
+                    position: relative;
+                }
+                
+                .mail-icon img {
+                    width: 30px;
+                    position: absolute;
+                    margin-top: 32px;
+                    margin-left: -120px;
+                    z-index: 1;
+                }
+                
+                    }
 

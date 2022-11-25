@@ -5,6 +5,9 @@
 .menu-button-style {
     display: none;
 }
+.menu-button{
+    display: none;
+}
 }
 
 
@@ -104,6 +107,7 @@
 .nav-bar-logo{
     cursor: pointer;
 }
+
 
 
 .contact-text-field{
@@ -237,6 +241,14 @@ nav ul li :hover {
     padding: 15px 30px;
     background-color: #0e36c7;
     text-decoration: none;
+    display: inline-block;
+}
+
+.menu-button{
+    float: right;
+    margin-right: 70px;
+    margin-top: -40px;
+    z-index: 1;
 }
 
 /* Modified in flex */
@@ -245,7 +257,7 @@ header.container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 5rem; 
+    margin-top: 8rem; 
 }
 
 /* CSS footer */
